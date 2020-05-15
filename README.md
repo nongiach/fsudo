@@ -12,5 +12,5 @@ Just edit the function `sendPassword` to do whatever you want with the password.
 
 # Thanks
 
-The original source were forked from here: https://github.com/mthbernardes/fsudo
+The technik is very old and known but the original source were forked from here: https://github.com/mthbernardes/fsudo
 I just updated to match the real sudo behavior and send it to discord.
